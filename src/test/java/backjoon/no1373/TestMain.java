@@ -13,6 +13,6 @@ public class TestMain {
     public void testConverToOctet(){
         String a = "1110";
 //        System.out.println((int)'0');
-        assertThat(Main.convertOctet(1,a), is(6));
+        assertThat(Main.convertOctet(1,a,3), is(6));
     }
 }
